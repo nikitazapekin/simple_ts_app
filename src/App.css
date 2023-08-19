@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+*/
+
+
+
+body {
+  display: flex;
+ /* min-height: 100vh;*/
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+    /*
+.App {
+  display: block;
+  min-height: 100vh;
+}*/

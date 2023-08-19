@@ -1,0 +1,28 @@
+.tableEl {
+  position: relative;
+ // position: absolute;
+}
+
+.wind {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%; 
+    text-align: center;
+
+    width: 400px;
+    height: 400px;
+    background-color: rgb(85, 241, 111);
+    border-radius: 20px;
+  .windBtn {
+    position: absolute;
+    width: 100%;
+    max-width: 80%;
+    background-color: aqua;
+    font-size: 32px;
+    top: 200px;
+  }
+}
